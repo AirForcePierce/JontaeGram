@@ -1,5 +1,11 @@
-import $ from 'jquery';
-import _ from 'underscore';
-import moment from 'moment';
+import React from 'react';
+import ReactDom from 'react-dom';
+import Famgram from './famgrammenu';
 
-console.log('Hello, World');
+
+let el = document.querySelector('.app');
+
+ReactDom.render(
+  <Famgrammenu/>,
+  el
+);

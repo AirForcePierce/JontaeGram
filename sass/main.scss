@@ -5,3 +5,22 @@
 body {
   background: #e2ebf3;
 }
+
+.app {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.topmenu {
+  max-width: 100%;
+}
+
+
+.menubtn {
+  background-color: #990000;
+  display: inline-block;
+  width: 20%;
+  height: 40px;
+  text-align: center;
+  border: 1px solid green;
+}
